@@ -1,0 +1,10 @@
+name: Healthcare-API-Environment
+values:
+  - key: baseUrl
+    value: 'https://hapi.fhir.org/baseR4'
+  - key: patientID
+    value: '1000'
+  - key: ObservationId
+    value: ''
+  - key: conditionID
+    value: ''
