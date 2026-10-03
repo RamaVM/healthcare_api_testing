@@ -1,0 +1,35 @@
+﻿Module,Scenario ID,Test Scenario
+Patient,TS_PATIENT_001,Verify retrieval of Patient details by ID
+Patient,TS_PATIENT_002,Verify Patient search by name
+Patient,TS_PATIENT_003,Verify Patient search by gender
+Patient,TS_PATIENT_004,Verify handling of non-existing Patient
+Patient,TS_PATIENT_005,Verify Patient search response structure and data
+Patient,TS_PATIENT_006,Verify handling of unsupported search parameters
+Practitioner,TS_PRACTITIONER_001,Verify retrieval of Practitioner by ID
+Practitioner,TS_PRACTITIONER_002,Verify Practitioner search by name
+Practitioner,TS_PRACTITIONER_003,Verify handling of non-existing Practitioner
+Practitioner,TS_PRACTITIONER_004,Verify Practitioner response data
+Practitioner,TS_PRACTITIONER_005,Verify handling of unsupported search parameters
+Organization,TS_ORGANIZATION_001,Verify retrieval of Organization by ID
+Organization,TS_ORGANIZATION_002,Verify Organization search by name
+Organization,TS_ORGANIZATION_003,Verify handling of non-existing Organization
+Organization,TS_ORGANIZATION_004,Verify Organization response data
+Organization,TS_ORGANIZATION_005,Verify handling of unsupported search parameters
+Encounter,TS_ENCOUNTER_001,Verify retrieval of Encounter by ID
+Encounter,TS_ENCOUNTER_002,Verify search of Encounter by Patient
+Encounter,TS_ENCOUNTER_003,Verify search of Encounter by status
+Encounter,TS_ENCOUNTER_004,Verify handling of non-existing Encounter
+Encounter,TS_ENCOUNTER_005,Verify handling of unsupported search parameters
+Encounter,TS_ENCOUNTER_006,Verify Encounter response data and Patient relationship
+Observation,TS_OBSERVATION_001,Verify retrieval of Observation by ID
+Observation,TS_OBSERVATION_002,Verify Observation search by code
+Observation,TS_OBSERVATION_003,Verify Observation search by Patient
+Observation,TS_OBSERVATION_004,Verify handling of non-existing Observation
+Observation,TS_OBSERVATION_005,Verify Observation measurement data
+Observation,TS_OBSERVATION_006,Verify handling of unsupported search parameters
+Condition,TS_CONDITION_001,Verify retrieval of Condition by ID
+Condition,TS_CONDITION_002,Verify Condition search by code
+Condition,TS_CONDITION_003,Verify Condition search by Patient
+Condition,TS_CONDITION_004,Verify handling of non-existing Condition
+Condition,TS_CONDITION_005,Verify Condition response data and relationships
+Condition,TS_CONDITION_006,Verify handling of unsupported search parameters
