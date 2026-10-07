@@ -11,9 +11,21 @@ export default defineConfig({
 
   workers: process.env.CI ? 1 : undefined,
 
-  reporter: 'html',
+  reporter: [
+    ['html', {
+      outputFolder: 'playwright-report',
+      open: 'never',
+    }],
+    ['list'],
+  ],
 
   use: {
     baseURL: 'https://hapi.fhir.org/baseR4/',
+
+    trace: 'on-first-retry',
+
+    screenshot: 'only-on-failure',
+
+    video: 'retain-on-failure',
   },
 });
