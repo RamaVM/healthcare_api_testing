@@ -251,10 +251,11 @@ HAPI FHIR API
 
 PROJECT STRUCTURE
 
+## Project Structure
+
+```text
 HealthCare_API_testing/
-|
 ├── Automation/
-│   |
 │   ├── api/
 │   │   ├── PatientApi.ts
 │   │   ├── PractitionerApi.ts
@@ -262,13 +263,10 @@ HealthCare_API_testing/
 │   │   ├── EncounterApi.ts
 │   │   ├── ObservationApi.ts
 │   │   └── ConditionApi.ts
-│   |
 │   ├── fixtures/
 │   │   └── api.fixture.ts
-│   |
 │   ├── test-data/
 │   │   └── testData.ts
-│   |
 │   ├── tests/
 │   │   ├── patient-search.spec.ts
 │   │   ├── practitioner.spec.ts
@@ -276,23 +274,29 @@ HealthCare_API_testing/
 │   │   ├── encounter.spec.ts
 │   │   ├── observation.spec.ts
 │   │   └── condition.spec.ts
-│   |
 │   ├── utils/
 │   │   └── assertions.ts
-│   |
 │   └── playwright.config.ts
-|
 ├── Defects/
-|
 ├── Documentation/
-|
 ├── Postman/
 │   ├── collections/
 │   └── environments/
-|
 ├── Test_Cases/
-|
 └── README.md
+```
+
+### Directory Responsibilities
+
+- `Automation/api/`: Resource-specific API clients.
+- `Automation/fixtures/`: Reusable Playwright fixtures.
+- `Automation/test-data/`: Centralized test data.
+- `Automation/tests/`: Automated API test cases.
+- `Automation/utils/`: Reusable assertions and validation helpers.
+- `Postman/`: Manual API testing collections and environments.
+- `Test_Cases/`: Test case documentation.
+- `Defects/`: Defect documentation.
+- `Documentation/`: Supporting project documentation.
 
 
 REUSABLE ASSERTIONS
